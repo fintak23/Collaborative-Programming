@@ -1,0 +1,102 @@
+<table border="0" cellpadding="5" cellspacing="1" style="width: 800px; height: 1020px; vertical-align: top;">
+    <tbody>
+        <tr height="10">
+            <td>
+                <table border="0" cellpadding="0" cellspacing="1" style="width: 785px; height: 45px; vertical-align: top;">
+                    <tbody>
+                        <tr>
+                            <td align="left" bgcolor="#1d3866" width="625"><span style="color: rgb(244, 122, 32); font-size: 23px;"><strong>HEALTH AND SAFETY - Visitor control register</strong></span></td>
+                            <td align="left" right="" width="150"><a href="https://webmail.beau-ideal.co.nz/owa/auth/logon.aspx?replaceCurrent=1&amp;url=https%3a%2f%2fwebmail.beau-ideal.co.nz%2fowa"><img alt="" src="/files/w161h45n/679/WebmailLong.PNG" style="width: 161px; height: 45px; float: right;" /></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr height="20">
+        </tr>
+        <tr bgcolor="D3D3D3" valign="top">
+            <td>
+                <p>Please fill in the below fields:</p>
+
+                <form action="mailto:itsupport@beaurepaires.co.nz?subject=AUTO: H&amp;S Visitor Register" enctype="text/plain" method="post">
+                    <fieldset>
+                        <h3>Visitor control register (Head Office)</h3>
+                        <script>
+$(document).ready(function(){
+      myFunction('Reading and agreeing to the Conditions of entry to site is your digital signature which acknowledges acceptance and understanding of our conditions of entry')
+});
+
+function myFunction(parameter)
+{
+    alert(parameter);
+}
+</script>
+
+                        <fieldset><legend><strong>Today&#39;s date</strong></legend>
+
+                            <p><input id="myDate" name="date" type="date" value="2017-05-01" /></p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Full name</strong></legend>
+
+                            <p><input name="name" type="text" value="" /></p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Company</strong></legend>
+
+                            <p><input name="company" type="text" value="" /></p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Visiting/location</strong></legend>
+
+                            <p><input name="visiting" type="text" value="" /></p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Vehicle no.</strong></legend>
+
+                            <p><input name="vehicle" type="text" value="" /></p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Health and Safety</strong></legend>
+
+                            <p>In accordance with the Health and Safety at Work Act 2015&nbsp;and its amendments, and our in-house Health &amp; Safety Management programme, Visitors and Contractors must obey all reasonable instructions and signs whilst on site to ensure that their actions create no hazards to people or property.<br />
+                                Your site host will brief you on any specific health and safety requirements in the areas you are visiting.</p>
+
+                            <p><input name="hands" type="radio" value="agree" /> I agree, and understand<br />
+                                <input name="hands" type="radio" value="disagree" /> I do not agree</p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Fire and Emergency</strong></legend>
+
+                            <p>On hearing the alarm please leave the site immediately by the nearest Fire Exit.<br />
+                                Your host or any employee will escort you to a designated area.<br />
+                                <br />
+                                Please remain there until the all clear is given.</p>
+
+                            <p><input name="fire" type="radio" value="agree" /> I agree, and understand<br />
+                                <input name="fire" type="radio" value="disagree" /> I do not agree</p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Smoking</strong></legend>
+
+                            <p>Smoking is prohibited on site except in designated areas</p>
+
+                            <p><input name="smoke" type="radio" value="agree" /> I agree, and understand<br />
+                                <input name="smoke" type="radio" value="disagree" /> I do not agree</p>
+                        </fieldset>
+
+                        <fieldset><legend><strong>Signature</strong></legend>
+
+                            <p>Selecting &quot;I agree to the Conditions of entry to site&quot; is your digital signature which acknowledges acceptance and understanding of our conditions of entry</p>
+
+                            <p><input name="signature" type="radio" value="agree" /> I agree to the Conditions of entry to site<br />
+                                <input name="signature" type="radio" value="disagree" /> I do not agree</p>
+                        </fieldset>
+                        <input type="submit" value="Send" /> <input type="reset" value="Reset" />
+                        <p>&nbsp;</p>
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </tbody>
+</table>
